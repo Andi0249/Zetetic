@@ -1,0 +1,120 @@
+
+:root    /* Egen kod */
+{
+  --primary-color: limegreen;
+  --secondary-color: #222831;
+  --fontone: 'Orbitron', sans-serif;
+  
+
+}
+
+*
+{
+  margin: 0;
+  padding:0;
+}
+
+
+/* Här börjar Navbar */
+
+.logo
+{
+  font-family: 'Orbitron', sans-serif;
+ font-size: 100px;
+ color: var(--secondary-color);
+ margin-left: -160px;
+}
+.navbar
+ {
+    background-color: var(--primary-color);
+    color: black;
+    height: 120px;
+  }
+  
+  .navbar ul
+   {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navbar a
+   {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    margin: 0 5px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover 
+  {
+    border-bottom: 2px black solid;
+    text-decoration:none;
+    color: black; 
+    
+  }
+  
+  .navbar .flex
+   {
+    justify-content: space-between;
+  }
+  
+  .flex
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    overflow: visible;
+    margin-right: 10px;
+    font-family: var();
+  }
+/* Navbar ends */
+
+/* section First */
+.first
+{
+  text-align: center;
+  margin: 50px;
+}
+
+.card
+{
+  background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2 );
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.languages .flex 
+{
+  flex-wrap: wrap;
+}
+.languages .card
+{
+  text-align: center;
+  margin: 18px 10px 40px;
+  transition: transform 0.2s ease-in;
+}
+
+.languages .card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.languages .card p
+{
+  font-size: 10px;
+  margin-top: 10px;
+  font-family: var(--fontone);
+}
+.languages .card:hover {
+  transform: translateY(-15px);
+}
+
+
+
+/* section first ends */
