@@ -114,7 +114,29 @@
 .languages .card:hover {
   transform: translateY(-15px);
 }
-
-
-
 /* section first ends */
+
+/* Mobile */
+@media screen and (max-width: 800px)
+ {
+  .navbar
+  {
+    width: 400px;
+    height: 300px;
+   
+
+  }
+  .logo
+  {
+    font-size: 50px;
+    width: 100px;
+   margin-top: -80px;
+   margin-left: 50px;
+  }
+  li
+  {
+    font-size: 10px;
+    margin-left: -20px;
+  }
+}
+/* Mobile Ends */
