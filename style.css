@@ -116,6 +116,38 @@
 }
 /* section first ends */
 
+/* color for text under img  */
+.jsc
+{
+  color: #61b15a ;
+}
+
+.pytc
+{
+  color:#0e49b5 ;
+}
+
+.csc
+{
+  color:#583d72;
+}
+
+.rubs
+{
+  color:#d35d6e ;
+}
+
+.phpc
+{
+  color:#19d3da;
+}
+
+.scas
+{
+  color:#aa3a3a;
+}
+/*  color for text under img end */
+
 /* Mobile */
 @media screen and (max-width: 800px)
  {
