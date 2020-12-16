@@ -186,12 +186,13 @@
 .footer
 {
     background: white;
+    background-color: var(--primary-color);
     color: lightgray;
     font-size: 12px;
     padding: 20px 0;
 }
 
-.footer-inner
+.footer-inner 
 {
     max-width: 1100px;
     margin: 0 auto;
@@ -200,6 +201,13 @@
     align-items: center;
     justify-content: space-between;
     margin-left: 550px;
+   
+}
+
+.footer a
+{
+  color: white;
+  text-decoration:none;
 }
 
 .footer div
@@ -218,6 +226,8 @@
 {
     display: flex;
     flex-wrap: wrap;
+    list-style-type: none;
+
 }
 
 .footer li
