@@ -16,7 +16,12 @@
 
 
 /* Här börjar Navbar */
+.fas
+{
+  text-align: center;
+  font-family: var(--fontone);
 
+}
 .logo
 {
   font-family: 'Orbitron', sans-serif;
@@ -68,7 +73,7 @@
     height: 100%;
     overflow: visible;
     margin-right: 10px;
-    font-family: var();
+    font-family: var(--fontone);
   }
 /* Navbar ends */
 
@@ -114,7 +119,6 @@
 .languages .card:hover {
   transform: translateY(-15px);
 }
-/* section first ends */
 
 /* color for text under img  */
 .jsc
@@ -147,6 +151,9 @@
   color:#aa3a3a;
 }
 /*  color for text under img end */
+
+/* section first ends */
+
 /* section second */
 .studio
 {
@@ -165,7 +172,7 @@
 
 .c2
 {
-  color:  #1f6f8b;
+  color: #1f6f8b;
 }
 
 .c3
@@ -219,6 +226,22 @@
     margin-bottom: 20px;
 }
 /* footer ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Mobile */
 @media screen and (max-width: 800px)
  {
@@ -241,12 +264,12 @@
     font-size: 10px;
     margin-left: -25px;
   }
-   .flex
-   {
-     display: inline;
-      margin-left: 50px;
-   }
-    .footer
+  .flex
+  {
+    display: inline;
+    margin-left: -30px;
+  }
+  .footer
   {
     font-size: 30px;
     width: 100px;
@@ -256,3 +279,5 @@
   }
 }
 /* Mobile Ends */
+
+
