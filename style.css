@@ -147,7 +147,78 @@
   color:#aa3a3a;
 }
 /*  color for text under img end */
+/* section second */
+.studio
+{
+  width: 110px;
+}
 
+.brackets
+{
+  width: 110px;
+}
+/* color for pic2 */
+.c1
+{
+  color: #2d6187;
+}
+
+.c2
+{
+  color: #1f6f8b;
+}
+
+.c3
+{
+ color: #61b15a;
+}
+/* color for pic2 ends*/
+/* sectiond senond ends */
+
+/* footer */
+.footer
+{
+    background: white;
+    color: lightgray;
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+.footer-inner
+{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 550px;
+}
+
+.footer div
+{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer div i
+{
+    margin-right: 10px;
+}
+
+.footer ul
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer li
+{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+/* footer ends */
 /* Mobile */
 @media screen and (max-width: 800px)
  {
@@ -175,5 +246,13 @@
      display: inline;
       margin-left: 50px;
    }
+    .footer
+  {
+    font-size: 30px;
+    width: 100px;
+   margin-top: 30px;
+   margin-left: -365px;
+   
+  }
 }
 /* Mobile Ends */
