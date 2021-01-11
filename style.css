@@ -190,6 +190,7 @@
     background-color: var(--primary-color);
     font-size: 12px;
     padding: 20px 0;
+    height: 300px;
 }
 
 .footer-inner 
@@ -281,7 +282,7 @@
 
 
 /* Mobile */
-@media screen and (max-width: 800px)
+@media screen and (max-width: 500px)
  {
   .navbar
   {
@@ -292,7 +293,7 @@
   }
   .logo
   {
-    font-size: 20px;
+    font-size: 50px;
     width: 60px;
    margin-top: -80px;
    margin-left: 50px;
