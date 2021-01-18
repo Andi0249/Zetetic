@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<h <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <!-- Boostrap css -->
@@ -38,7 +39,7 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="certificate.html">Certificate</a></li>
+                    <li><a href="certificate.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -54,11 +55,11 @@
         </div>
         <div class="container flex">
             <div class="card">
-                Namn<input type="text" name="fname">
-                Lastname<input type="text" name="fname">
+                Namn<input type="text" name="fname" maxlength="10">
+                Lastname<input type="text" name="fname" maxlength="10">
                 E-mail<input type="text"  name="fname">
                 Phone number<input type="text" name="fname">
-                Concerning <select name="cars" id="cars">
+                Concerning <select name="Programmering" id="Programmering">
                     <option value="Node.js">Node.js</option>
                     <option value="Python">Python</option>
                     <option value="C#">C#</option>
@@ -70,22 +71,22 @@
             </div>
 
             <div class="cardText">
-                <p>Comments</p>
-                <textarea class="textarea"></textarea>
+                <h2>Write here!</h2>
+                <textarea name="comments" class="comments"></textarea>
+                <br>
+                <input type="submit" class="knapp">
               </div>
-             
-              
-             
         </div>
         </div>
+    
 
 
 
 
     </section>
        <!-- Contact infarmation end -->
-       <!-- Footer -->
-       <section class="s">
+      <!-- Footer -->
+      <section class="s">
         <div class="footer">
             <div class="footer-inner">
               <ul>
@@ -98,5 +99,6 @@
         </div>
     </section>
     <!-- Footer end -->
+    <script src="main.js"></script>
 </body>
 </html>
