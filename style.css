@@ -290,6 +290,7 @@
       margin: 0px;
       padding: 0px;
       overflow-x: hidden; 
+      
   }
   .navbar
   {
@@ -334,8 +335,8 @@
 
   .s
   {
-    background-color: limegreen;
-   margin-bottom: 100px;  
+    background-color: limegreen; 
+   padding-bottom: 20px;
   
   }
 
