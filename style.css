@@ -366,3 +366,58 @@
   font-size: 10px;
 }
 /* Classrome ends */
+
+/* Certificate.html start */
+.abouts
+{
+  margin-top:100px;
+}
+.missioncenter
+{
+  text-align: center;
+  font-family: var(--fontone);
+}
+
+.mission
+{
+  text-align: center;
+  font-size: 15px;
+  font-family: var(--fontone);
+}
+
+.goodpic
+{
+  width: 100%;
+}
+
+.pc
+{
+  width: 100%;
+}
+.promisecenter
+{
+  text-align: center;
+  font-family: var(--fontone);
+}
+
+.promise
+{
+  text-align: center;
+  font-size: 15px;
+  font-family: var(--fontone);
+}
+
+.vibecenter
+{
+  text-align: center;
+  font-family: var(--fontone);
+}
+
+.vibe
+{
+  text-align: center;
+  font-size: 15px;
+  font-family: var(--fontone);
+}
+
+
