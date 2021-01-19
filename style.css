@@ -344,7 +344,13 @@
   {
     width: 100%;
   }
-  
+
+  .missioncenter
+  {
+    font-size: 20px;
+  }
+
+}
 /* certificate.html mobil anpassad */
 .col-6
 {
@@ -367,7 +373,7 @@
 {
   margin-top: 200px;
 }
-}
+
 /* Mobile Ends */
 
 /* Classrome */
