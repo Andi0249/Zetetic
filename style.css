@@ -344,6 +344,29 @@
   {
     width: 100%;
   }
+  
+/* certificate.html mobil anpassad */
+.col-6
+{
+  margin-left: 90px;
+  margin-top: 150px;
+  width: 100%;
+
+}
+.toolpic
+{
+  width: 100%;
+}
+
+.col
+{
+  margin-top: -100px;
+}
+
+.cols
+{
+  margin-top: 200px;
+}
 }
 /* Mobile Ends */
 
