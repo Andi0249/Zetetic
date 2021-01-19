@@ -449,4 +449,7 @@
   font-family: var(--fontone);
 }
 
-
+.cols
+{
+  margin-bottom: 50px;
+}
